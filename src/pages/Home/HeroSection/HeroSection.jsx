@@ -31,15 +31,15 @@ const HeroSection = () => {
                     <div className="m-8 relative space-y-4">
                         <TypeWrite></TypeWrite>
                     </div>
-                    
+
                 </div>
                 <div className='w-full mt-16 flex justify-center'>
-                <a href="#"
+                    <a href="#"
                         className=" backdrop-blur-3xl bg-purple-400 hover:drop-shadow-2xl hover:hue-rotate-30 duration-1000 glass text-white hover:bg-purple-400 hover:shadow-2xl hover:text-white rounded shadow py-3 px-4 border border-purple-300 hover:border-transparent">
                         Download Resume</a>
                 </div>
             </div>
-            <img className="inline-block lg:ml-40 ml-0 md:ml-0 md:h-[300px] md:w-[450px] lg:h-[450px] lg:w-auto rounded-3xl lg:mt-24 mt-0 md:mt-0 p-8 md:p-0" src="https://i.ibb.co/VVkFr4v/IMG-20230224-WA0016.jpg" />
+            {/* <img className="inline-block lg:ml-40 ml-0 md:ml-0 md:h-[300px] md:w-[450px] lg:h-[450px] lg:w-auto rounded-3xl lg:mt-24 mt-0 md:mt-0 p-8 md:p-0" src="https://i.ibb.co/VVkFr4v/IMG-20230224-WA0016.jpg" /> */}
         </div>
     );
 };
