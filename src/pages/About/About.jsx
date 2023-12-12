@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 const About = () => {
     return (
-        <div id="about" style={{ backgroundImage: `url('https://i.ibb.co/9TPVgQS/18.jpg')` }} className="bg-cover bg-no-repeat">
+        <div id="about"  className="bg-cover bg-no-repeat">
             <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
 
                 <div
@@ -9,20 +9,10 @@ const About = () => {
 
 
                     <div className="p-4 md:p-12 text-center lg:text-left">
-                        {/* <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-            style={{backgroundImage: `url('https://source.unsplash.com/MP0IUfwrn0A')`}}></div> */}
 
                         <h1 className="text-3xl font-bold pt-8 lg:pt-0">About Me</h1>
                         <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
                         <div className="px-6 py-4 flex flex-col gap-2">
-                            {/* <div className="flex items-center">
-                                <svg className="h-4 fill-current mb-[9px] text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 20 20">
-                                    <path
-                                        d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
-                                </svg>
-                                <h3 className="font-newFont text-xl font-bold mb-2 text-purple-800">I am a</h3>
-                            </div> */}
                             <span className="inline-block px-2 py-1 font-semibold text-teal-900 bg-teal-200 rounded-full">Front-End Web Developer</span>
                             <span className="inline-block px-2 py-1 font-semibold text-indigo-900 bg-indigo-200 rounded-full">Microsoft Learn Student
                                 Alpha Ambassador</span>
