@@ -11,14 +11,14 @@ const Drawer = () => {
         setDrawerChecked(!drawerChecked);
     };
     return (
-        <div className="drawer">
+        <div className="drawer sticky top-20 right-0 z-50">
             <input type="checkbox" id="drawer-toggle" className="relative sr-only peer" checked={drawerChecked}
                 onChange={handleDrawerToggle} />
             <label htmlFor="drawer-toggle" className="absolute top-0 right-0 inline-block p-4 transition-all duration-500 bg-indigo-500 rounded-lg peer-checked:rotate-180 peer-checked:right-64">
                 <div className="w-6 h-1 mb-3 -rotate-45 bg-white rounded-lg"></div>
                 <div className="w-6 h-1 rotate-45 bg-white rounded-lg"></div>
             </label>
-            <div className="drawer-content bg-transparent backdrop-blur-3xl fixed top-0 right-0 z-20 w-64 h-full transition-all duration-500 transform translate-x-full shadow-lg peer-checked:translate-x-0">
+            <div className="drawer-content bg-transparent backdrop-blur-2xl fixed top-0 right-0 z-20 w-64 h-full transition-all duration-500 transform translate-x-full shadow-lg peer-checked:translate-x-0">
                 <ul className="menu p-4 font-newFont text-xl font-bold flex gap-10 justify-center min-h-full text-base-content">
                     <li><Link
                         to="/"

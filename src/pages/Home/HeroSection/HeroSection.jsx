@@ -34,7 +34,7 @@ const HeroSection = () => {
 
                 </div>
                 <div className='w-full mt-16 flex justify-center'>
-                    <a href="#"
+                    <a href="My resume.pdf" download="resume.pdf"
                         className=" backdrop-blur-3xl bg-purple-400 hover:drop-shadow-2xl hover:hue-rotate-30 duration-1000 glass text-white hover:bg-purple-400 hover:shadow-2xl hover:text-white rounded shadow py-3 px-4 border border-purple-300 hover:border-transparent">
                         Download Resume</a>
                 </div>
