@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -10,7 +9,9 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
-const ProjectsSlide = () => {
+
+const EachProjectSlide = ({images}) => {
+  console.log(images);
     return (
         <div>
              <Swiper
@@ -35,19 +36,19 @@ const ProjectsSlide = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img className='w-[400px]' src="https://i.ibb.co/PwxnxGh/home-Banner-I.png" />
+          <img className='w-[400px]' src={images?.img1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-[400px]' src="https://i.ibb.co/xJ7NNJ5/homeH.png" />
+          <img className='w-[400px]' src={images?.img2} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-[400px]' src="https://i.ibb.co/RgD85xd/homeC.png" />
+          <img className='w-[400px]' src={images?.img3} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-[400px]' src="https://i.ibb.co/6tQfTfX/meal-Details-H.png" />
+          <img className='w-[400px]' src={images?.img4} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-[400px]' src="https://i.ibb.co/cF05wfM/productI.png" />
+          <img className='w-[400px]' src={images?.img5} />
         </SwiperSlide>
         
       </Swiper>
@@ -55,4 +56,4 @@ const ProjectsSlide = () => {
     );
 };
 
-export default ProjectsSlide;
+export default EachProjectSlide;

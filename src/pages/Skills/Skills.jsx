@@ -5,7 +5,7 @@ import GlowingDivs from '../GlowingDivs/GlowingDivs';
 
 const Skills = () => {
     return (
-        <div className='bg-center' id='skills'>
+        <div className='bg-transparent' id='skills'>
             {/* <p align="center">
             <a href="https://skillicons.dev">
                 <img src="https://skillicons.dev/icons?i=html,css,tailwind,c,js,figma,firebase,react,vscode,github,nodejs,express,mongodb&perline=6" />
@@ -26,7 +26,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="group each rounded-2xl bg-gray-200 shadow-md hover:shadow-inner">
+                    <div className="group each rounded-2xl bg-gray-800 shadow-md hover:shadow-inner">
                         <div className="box p-4">
                             <div className="content text-center">
                             <p align="center">
@@ -46,7 +46,7 @@ const Skills = () => {
                     </div> */}
                     
 
-                    <div className="group each rounded-2xl bg-gray-200 shadow-md hover:shadow-inner">
+                    <div className="group each rounded-2xl bg-gray-800 shadow-md hover:shadow-inner">
                         <div className="box p-4">
                             <div className="content text-center">
                             <p align="center">
@@ -64,7 +64,7 @@ const Skills = () => {
                             <div className="content text-center">
                             <p align="center">
                                     <a href="https://skillicons.dev">
-                                        <img src="https://skillicons.dev/icons?i=c,matlab&perline=2" />
+                                        <img src="https://skillicons.dev/icons?i=vercel,c,matlab&perline=2" />
                                     </a>
                                 </p>
                                 <i className="fab fa-html5 mt-4"></i>

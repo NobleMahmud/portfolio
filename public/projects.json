@@ -1,33 +1,41 @@
 [
-      {
+    {
         "projectName": "Innovation X",
         "images": {
-          "img1": "https://example.com/innovation_x_img1.jpg",
-          "img2": "https://example.com/innovation_x_img2.jpg",
-          "img3": "https://example.com/innovation_x_img3.jpg"
+            "img1": "https://i.ibb.co/PwxnxGh/home-Banner-I.png",
+            "img2": "https://i.ibb.co/cF05wfM/productI.png",
+            "img3": "https://i.ibb.co/94zXfVB/homei.png",
+            "img4": "https://i.ibb.co/tzY7ry4/detailsI.png",
+            "img5": "https://i.ibb.co/85vDbRv/cartI.png"
         },
-        "liveLink": "https://innovationx.example.com",
-        "githubLink": "https://github.com/yourusername/innovation-x"
-      },
-      {
+        "details": "INNOVATION X stands as a cutting-edge tech website spotlighting products from the world's top 6 tech giants: Apple, Samsung, Sony, Google, Intel, and Panasonic. This dynamic platform offers a seamless user experience through features like User Registration, ensuring a personalized journey. The User Authentication process guarantees a secure environment, prioritizing user identity. With Brand-Based Product Selection, users can explore curated content specific to their chosen brand. The Add Product Page, accessible through private routes, empowers users to contribute new products effortlessly. Brand Pages offer dedicated spaces with captivating sliders, showcasing advertisements and curated products. Dive deeper into products with the private/protected Product Details Page, ensuring exclusive access. INNOVATION X redefines tech exploration, making it both interactive and secure for users.",
+        "liveLink": "https://brand-client-8a011.web.app",
+        "githubLink": "https://github.com/NobleMahmud/brand-shop-client-repo"
+    },
+    {
         "projectName": "Career-Hub",
         "images": {
-          "img1": "https://example.com/career_hub_img1.jpg",
-          "img2": "https://example.com/career_hub_img2.jpg",
-          "img3": "https://example.com/career_hub_img3.jpg"
+            "img1": "https://i.ibb.co/RgD85xd/homeC.png",
+            "img2": "https://i.ibb.co/y5LFKdd/jobsC.png",
+            "img3": "https://i.ibb.co/DDy9rY4/job-Apply-C.png",
+            "img4": "https://i.ibb.co/gdhgYKt/logInC.png",
+            "img5": "https://i.ibb.co/9N2rvzr/jobsTabC.png"
         },
-        "liveLink": "https://careerhub.example.com",
-        "githubLink": "https://github.com/yourusername/career-hub"
-      },
-      {
+        "details": "Career-HUB is a user-friendly job posting and hiring platform, offering effortless job search, application, and posting capabilities. The platform ensures a secure and efficient experience with features such as seamless user registration, robust authentication, and intuitive job filtering. Users can post jobs with a comprehensive form, manage applications, and track their applied jobs, all within a private and protected environment. The smart application system, based on user email and deadline comparison, adds an extra layer of efficiency. Job details pages are secure and private, redirecting unauthorized users to the login page, ensuring a confidential and focused job exploration. Career-HUB: Empowering your career journey with simplicity and security.",
+        "liveLink": "https://career-hub-client.web.app",
+        "githubLink": "https://github.com/NobleMahmud/career-hub-client-repo"
+    },
+    {
         "projectName": "Hungry Hall",
         "images": {
-          "img1": "https://example.com/hungry_hall_img1.jpg",
-          "img2": "https://example.com/hungry_hall_img2.jpg",
-          "img3": "https://example.com/hungry_hall_img3.jpg"
+            "img1": "https://i.ibb.co/xJ7NNJ5/homeH.png",
+            "img2": "https://i.ibb.co/qDP1Fsv/mealTabH.png",
+            "img3": "https://i.ibb.co/XyCZzcg/paymentH.png",
+            "img4": "https://i.ibb.co/6tQfTfX/meal-Details-H.png",
+            "img5": "https://i.ibb.co/WvQYNZ5/upcoming-H.png"
         },
-        "liveLink": "https://hungryhall.example.com",
-        "githubLink": "https://github.com/yourusername/hungry-hall"
-      }
-    ]
-  
+        "details": "Hungry Hall is a hostel meal management website that offer user, admin distinguished operations along with jwt protection capabilities. The platform ensures a secure and efficient experience with features such as seamless user registration, robust authentication, and finding meals via filtering by price and title along with search mechanism.  Users can give likes to each meal as well as reviews and upon successfully buying a package by making payment via stripe payment method a user can also request meals. The admin can see all user activities and make necessary adjustments. The admin can also make other users admin from here. New meals can be added. And all this happens from the dashboard. The users and admins both have access to dashboard, although the options may vary depending on permission. Overall it is complete meal management website.",
+        "liveLink": "https://hostel-management-44058.firebaseapp.com",
+        "githubLink": "https://github.com/NobleMahmud/hostel-management-client-repo"
+    }
+]
