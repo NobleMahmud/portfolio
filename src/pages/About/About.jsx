@@ -18,7 +18,7 @@ const About = () => {
                                 Alpha Ambassador</span>
                             <span className="inline-block px-2 py-1 font-semibold text-purple-900 bg-purple-200 rounded-full">GP Explorers 2.0 Finalist</span>
                         </div>
-                        <p className="pt-8 text-xl font-newFont">
+                        <p className="pt-8 font-newFont text-lg text-gray-700 leading-relaxed">
                             I am a passionate front-end web developer with a keen eye for design and a love for creating seamless, user-friendly experiences. I thrive on turning complex ideas into clean, efficient, and visually appealing websites.
                         </p>
                         {/*  */}

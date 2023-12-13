@@ -1,11 +1,11 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-
+import GlowingDivs from '../GlowingDivs/GlowingDivs';
 
 
 const Skills = () => {
     return (
-        <div className='bg-cover' id='skills'>
+        <div className='bg-center' id='skills'>
             {/* <p align="center">
             <a href="https://skillicons.dev">
                 <img src="https://skillicons.dev/icons?i=html,css,tailwind,c,js,figma,firebase,react,vscode,github,nodejs,express,mongodb&perline=6" />
@@ -16,9 +16,11 @@ const Skills = () => {
                     <div className="group each rounded-2xl bg-gray-200 shadow-md hover:shadow-inner">
                         <div className="box p-4">
                             <div className="content text-center">
-                            <a href="https://skillicons.dev">
-                <img src="https://skillicons.dev/icons?i=html,css,tailwind,js&perline=2" />
-            </a>
+                                <p align="center">
+                                    <a href="https://skillicons.dev">
+                                        <img src="https://skillicons.dev/icons?i=html,css,tailwind,js&perline=2" />
+                                    </a>
+                                </p>
                                 <i className="fab fa-html5 mt-4"></i>
                             </div>
                         </div>
@@ -27,9 +29,11 @@ const Skills = () => {
                     <div className="group each rounded-2xl bg-gray-200 shadow-md hover:shadow-inner">
                         <div className="box p-4">
                             <div className="content text-center">
-                            <a href="https://skillicons.dev">
-                <img src="https://skillicons.dev/icons?i=html,css,tailwind,js&perline=2" />
-            </a>
+                            <p align="center">
+                                    <a href="https://skillicons.dev">
+                                        <img src="https://skillicons.dev/icons?i=figma,firebase,react,mongodb&perline=2" />
+                                    </a>
+                                </p>
                                 <i className="fab fa-html5 mt-4"></i>
                             </div>
                         </div>
@@ -40,13 +44,16 @@ const Skills = () => {
                             <h2 className="text-2xl font-bold">SKILLS</h2>
                         </div>
                     </div> */}
+                    
 
                     <div className="group each rounded-2xl bg-gray-200 shadow-md hover:shadow-inner">
                         <div className="box p-4">
                             <div className="content text-center">
-                            <a href="https://skillicons.dev">
-                <img src="https://skillicons.dev/icons?i=html,css,tailwind,js&perline=2" />
-            </a>
+                            <p align="center">
+                                    <a href="https://skillicons.dev">
+                                        <img src="https://skillicons.dev/icons?i=vscode,github,nodejs,express&perline=2" />
+                                    </a>
+                                </p>
                                 <i className="fab fa-html5 mt-4"></i>
                             </div>
                         </div>
@@ -55,29 +62,33 @@ const Skills = () => {
                     <div className="group each rounded-2xl bg-gray-200 shadow-md hover:shadow-inner">
                         <div className="box p-4">
                             <div className="content text-center">
-                            <a href="https://skillicons.dev">
-                <img src="https://skillicons.dev/icons?i=html,css,tailwind,js&perline=2" />
-            </a>
+                            <p align="center">
+                                    <a href="https://skillicons.dev">
+                                        <img src="https://skillicons.dev/icons?i=c,matlab&perline=2" />
+                                    </a>
+                                </p>
                                 <i className="fab fa-html5 mt-4"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h1 style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'bold' }}>
-                            {' '}
-                            <span className="text-purple-800 font-bold text-2xl md:text-4xl lg:text-6xl">
-                                <Typewriter
-                                    words={["Technologies I know"]}
-                                    loop={1}
-                                    cursor
-                                    cursorStyle='_'
-                                    typeSpeed={70}
-                                    // deleteSpeed={50}
-                                    delaySpeed={1000}
-                                    
-                                />
-                            </span>
-                        </h1>
+                <div>
+                    <h1 style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'bold' }}>
+                        {' '}
+                        <span className="text-purple-800 font-bold text-2xl md:text-4xl lg:text-6xl">
+                            <Typewriter
+                                words={["Technologies That I"]}
+                                loop={1}
+                                cursor
+                                cursorStyle=' Know'
+                                typeSpeed={70}
+                                // deleteSpeed={50}
+                                delaySpeed={1000}
+
+                            />
+                        </span>
+                    </h1>
+                </div>
             </div>
         </div>
     );

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Typewriter } from 'react-simple-typewriter'
 
 const TypeWrite = () => {
@@ -7,10 +6,10 @@ const TypeWrite = () => {
     }
 
     return (
-        <div>
+        <div className='lg:min-w-[600px] md:w-auto w-auto'>
             <h1 style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'bold' }}>
                             {' '}
-                            <span className="text-purple-800 font-bold text-base md:text-xl lg:text-3xl">
+                            <span className="text-purple-800 font-bold text-base md:text-xl lg:text-4xl">
                                 {/* Style will be inherited from the parent element */}
                                 <Typewriter
                                     words={["Hi! I'm Nobel", 'A front-end web developer', 'And I love making websites!']}

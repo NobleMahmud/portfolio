@@ -1,0 +1,33 @@
+[
+      {
+        "projectName": "Innovation X",
+        "images": {
+          "img1": "https://example.com/innovation_x_img1.jpg",
+          "img2": "https://example.com/innovation_x_img2.jpg",
+          "img3": "https://example.com/innovation_x_img3.jpg"
+        },
+        "liveLink": "https://innovationx.example.com",
+        "githubLink": "https://github.com/yourusername/innovation-x"
+      },
+      {
+        "projectName": "Career-Hub",
+        "images": {
+          "img1": "https://example.com/career_hub_img1.jpg",
+          "img2": "https://example.com/career_hub_img2.jpg",
+          "img3": "https://example.com/career_hub_img3.jpg"
+        },
+        "liveLink": "https://careerhub.example.com",
+        "githubLink": "https://github.com/yourusername/career-hub"
+      },
+      {
+        "projectName": "Hungry Hall",
+        "images": {
+          "img1": "https://example.com/hungry_hall_img1.jpg",
+          "img2": "https://example.com/hungry_hall_img2.jpg",
+          "img3": "https://example.com/hungry_hall_img3.jpg"
+        },
+        "liveLink": "https://hungryhall.example.com",
+        "githubLink": "https://github.com/yourusername/hungry-hall"
+      }
+    ]
+  

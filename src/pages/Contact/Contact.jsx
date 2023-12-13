@@ -3,28 +3,28 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Contact = () => {
     return (
-        <div id='contact' className='bg-cover flex flex-col items-center justify-center min-h-screen'>
+        <div style={{ backgroundImage: `url('https://i.ibb.co/L5xHGXb/173735267378254-ai-brush-removebg-ef9b2vdh.png')` }} id='contact' className='bg-cover flex flex-col items-center justify-center min-h-screen'>
             <h1 style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'bold' }}>
-                            {' '}
-                            <span className="text-purple-800 font-bold text-2xl md:text-4xl lg:text-6xl">
-                                <Typewriter
-                                    words={["Let's Get Connected"]}
-                                    loop={1}
-                                    cursor
-                                    cursorStyle='_'
-                                    typeSpeed={70}
-                                    // deleteSpeed={50}
-                                    delaySpeed={1000}
-                                    
-                                />
-                            </span>
-                        </h1>
-            <div className="w-full p-4 mx-auto lg:w-3/5 rounded-lg shadow-2xl bg-black backdrop-blur-3xl opacity-75">
+                {' '}
+                <span className="text-purple-800 font-bold text-2xl md:text-4xl lg:text-6xl">
+                    <Typewriter
+                        words={["Let's Get Connected"]}
+                        loop={1}
+                        cursor
+                        cursorStyle='_'
+                        typeSpeed={70}
+                        // deleteSpeed={50}
+                        delaySpeed={1000}
+
+                    />
+                </span>
+            </h1>
+            <div className="w-full brightness-200 p-4 mx-auto lg:w-3/5 rounded-lg shadow-2xl bg-black opacity-75 mb-10">
                 <div className="p-4 md:p-12 text-center lg:text-left">
                     <div className="mt-6 px-0 md:p-0 lg:px-28 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
-                    <a className="link" href="https://www.linkedin.com/in/mahmud-one-is1/" data-tippy-content="@youtube_handle">
-                            <svg className="w-6 h-6 text-gray-600 hover:text-green-700" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 15 15">
+                        <a className="link" href="https://www.linkedin.com/in/mahmud-one-is1/" data-tippy-content="@youtube_handle">
+                            <svg className="w-6 h-6 text-gray-600 hover:text-blue-800 hover:filter hover:drop-shadow-md"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 15 15">
                                 <title>LinkedIn</title>
                                 <path fillRule="evenodd"
                                     d="M7.979 5v1.586a3.5 3.5 0 0 1 3.082-1.574C14.3 5.012 15 7.03 15 9.655V15h-3v-4.738c0-1.13-.229-2.584-1.995-2.584-1.713 0-2.005 1.23-2.005 2.5V15H5.009V5h2.97ZM3 2.487a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
@@ -33,16 +33,32 @@ const Contact = () => {
                             </svg>
                         </a>
 
+
                         <a className="link" href="https://github.com/NobleMahmud" data-tippy-content="@github_handle">
-                            <svg className="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg className="h-6 fill-current text-gray-600 hover:text-blue-800 hover:filter hover:drop-shadow-md"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <title>GitHub</title>
                                 <path
                                     d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                             </svg>
                         </a>
+
+                        {/* <a title="Email me" href="mailto:mahmud.oneis1@gmail.com">
+                            <img className="h-5 fill-current text-gray-600 hover:text-blue-800"
+                                alt="Email icon"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png"
+                            />
+                        </a> */}
+                        <a title="Email me" href="mailto:mahmud.oneis1@gmail.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="h-6 fill-current text-gray-600 hover:text-blue-800">
+                                    <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                                </svg>
+
+                        </a>
+
+
                         <a className="link" href="https://www.instagram.com/noble.mahmud1/" data-tippy-content="@instagram_handle">
-                            <svg className="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
+                            <svg className="h-6 fill-current text-gray-600 hover:text-blue-800" role="img" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>Instagram</title>
                                 <path
@@ -50,14 +66,14 @@ const Contact = () => {
                             </svg>
                         </a>
                         <a className="link" href="https://www.facebook.com/Mahmud.Oneis1" data-tippy-content="@facebook_handle">
-                            <svg className="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
+                            <svg className="h-6 fill-current text-gray-600 hover:text-blue-800" role="img" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>Facebook</title>
                                 <path
                                     d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0" />
                             </svg>
                         </a>
-                        
+
                     </div>
                 </div>
 
