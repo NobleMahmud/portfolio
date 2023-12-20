@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div id='projects' className='mx-auto'>
             
-<div className="relative overflow-hidden bg-white">
+<div className="relative overflow-hidden">
     <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
       <div className="relative flex flex-col md:flex-col lg:flex-row px-4 sm:static sm:px-6 lg:px-8">
         <div className="sm:max-w-lg">

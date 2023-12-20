@@ -11,7 +11,7 @@ const Skills = () => {
                 <img src="https://skillicons.dev/icons?i=html,css,tailwind,c,js,figma,firebase,react,vscode,github,nodejs,express,mongodb&perline=6" />
             </a>
             </p> */}
-            <div className="flex flex-col-reverse backdrop-blur-xl gap-10 justify-center items-center h-screen">
+            <div className="flex flex-col-reverse gap-10 justify-center items-center h-screen">
                 <div className="grid grid-cols-2 gap-20 relative w-96">
                     <div className="group each rounded-2xl bg-gray-200 shadow-md hover:shadow-inner">
                         <div className="box p-4">

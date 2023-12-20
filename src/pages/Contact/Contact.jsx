@@ -3,7 +3,8 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Contact = () => {
     return (
-        <div style={{ backgroundImage: `url('https://i.ibb.co/L5xHGXb/173735267378254-ai-brush-removebg-ef9b2vdh.png')` }} id='contact' className='bg-cover flex flex-col items-center justify-center min-h-screen'>
+        // style={{ backgroundImage: `url('https://i.ibb.co/L5xHGXb/173735267378254-ai-brush-removebg-ef9b2vdh.png')` }}
+        <div id='contact' className='bg-cover flex flex-col items-center justify-center min-h-screen'>
             <h1 style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'bold' }}>
                 {' '}
                 <span className="text-purple-800 font-bold text-2xl md:text-4xl lg:text-6xl">

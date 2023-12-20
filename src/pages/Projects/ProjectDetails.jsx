@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import EachProjectSlide from './EachProjectSlide';
+import ParticlesBg from '../../ParticlesBg/ParticlesBg';
 
 const ProjectDetails = () => {
     const [allProjects, setAllProjects] = useState([]);
@@ -24,6 +25,7 @@ const ProjectDetails = () => {
     console.log(currentProject);
     return (
         <div className='bg-transparent'>
+            <ParticlesBg></ParticlesBg>
             <Helmet>
                 <title>Nobel Mahmud | Projects</title>
             </Helmet>

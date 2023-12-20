@@ -3,7 +3,9 @@ import TypeWrite from '../TypeWrite/TypeWrite';
 const HeroSection = () => {
     return (
 
-        <div className="bg-white min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-16">
+        <div>
+            
+            <div className="bg-white min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-16">
             <div className="relative w-full max-w-lg">
                 <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-700 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
                 <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-700 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse animation-delay-2000"></div>
@@ -24,6 +26,7 @@ const HeroSection = () => {
                         Download Resume</a>
                 </div>
             </div>
+        </div>
         </div>
     );
 };
